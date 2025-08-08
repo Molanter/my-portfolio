@@ -52,7 +52,7 @@ export default function Home() {
           name="description"
           content="Portfolio of Edgars Yarmolatiy (molanter) — Developer • Problem Solver • Creative Thinker"
         />
-        <link rel="icon" href="Plastic%20Textures%201.jpg" />
+        <link rel="icon" href="me.jpg" />
       </Head>
 
       {/* Canvas */}
@@ -107,7 +107,7 @@ export default function Home() {
                 <div className="mt-5">
                   <div className="relative h-24 w-24 rounded-full overflow-hidden ring-2 ring-white/40 dark:ring-white/10 shadow">
                     <Image
-                      src="/me.jpg"
+                      src="me.jpg"
                       alt="Edgars Yarmolatiy portrait"
                       fill
                       sizes="628px"
