@@ -89,19 +89,6 @@ export default function Home() {
                   >
                     Contact
                   </a>
-                  <button
-                    onClick={toggleTheme}
-                    className="ml-1 inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-sm border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition"
-                    aria-label="Toggle dark mode"
-                    title="Toggle dark mode"
-                  >
-                    {isDark ? (
-                      <svg width="16" height="16" viewBox="0 0 24 24" className="opacity-90"><path fill="currentColor" d="M6.76 4.84l-1.8-1.79L3.17 4.84l1.79 1.79l1.8-1.79m10.48 0l1.79-1.79l1.79 1.79l-1.79 1.79l-1.79-1.79M12 4V1h-0v3h0m0 19v-3h-0v3h0M4 13H1v-0h3v0m19 0h-3v-0h3v0M6.76 19.16l-1.8 1.79l-1.79-1.79l1.79-1.79l1.8 1.79m10.48 0l1.79 1.79l1.79-1.79l-1.79-1.79l-1.79 1.79M12 8a4 4 0 1 1 0 8a4 4 0 0 1 0-8Z" /></svg>
-                    ) : (
-                      <svg width="16" height="16" viewBox="0 0 24 24" className="opacity-90"><path fill="currentColor" d="M12 2a9.99 9.99 0 0 0 0 20c5.52 0 10-4.48 10-10c0-1.02-.15-2-.43-2.93A8 8 0 0 1 12 20a8 8 0 0 1-6.95-11.9A10 10 0 0 0 12 2z" /></svg>
-                    )}
-                    <span className="hidden sm:inline">{isDark ? "Light" : "Dark"}</span>
-                  </button>
                 </nav>
               </div>
             </div>
