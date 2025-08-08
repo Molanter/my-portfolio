@@ -52,14 +52,14 @@ export default function Home() {
           name="description"
           content="Portfolio of Edgars Yarmolatiy (molanter) — Developer • Problem Solver • Creative Thinker"
         />
-        <link rel="icon" href="/Plastic%20Textures%201.jpg" />
+        <link rel="icon" href="Plastic%20Textures%201.jpg" />
       </Head>
 
       {/* Canvas */}
       <div className="relative min-h-screen text-gray-900 dark:text-gray-100">
         <div
           className="absolute inset-0 bg-gradient-to-br from-gray-100 via-white to-gray-200 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 bg-cover bg-center bg-no-repeat bg-fixed bg-blend-overlay"
-          style={{ backgroundImage: "url(/Plastic%20Textures%201.jpg)" }}
+          style={{ backgroundImage: "url(Plastic%20Textures%201.jpg)" }}
         />
         <div className="relative">
           {/* Nav */}
@@ -131,7 +131,7 @@ export default function Home() {
                 </div>
 
                 <h1 className="mt-6 text-5xl sm:text-7xl font-semibold tracking-tight leading-[1.05]">
-                  I’m Edgars. I build clean, useful software.
+                  I&apos;m Edgars. I build clean, useful software.
                 </h1>
 
                 <p className="mt-5 max-w-2xl text-gray-600 dark:text-gray-300">
@@ -190,7 +190,7 @@ export default function Home() {
             <div className="flex items-end justify-between gap-4">
               <div>
                 <h2 className="text-3xl font-semibold tracking-tight">Featured Projects</h2>
-                <p className="mt-2 text-gray-600 dark:text-gray-300">A couple things I’m proud of.</p>
+                <p className="mt-2 text-gray-600 dark:text-gray-300">A couple things I&apos;m proud of.</p>
               </div>
             </div>
 
@@ -258,7 +258,7 @@ export default function Home() {
                 className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 transition hover:-translate-y-0.5 hover:shadow-sm backdrop-blur-2xl bg-white/30 dark:bg-white/10"
               >
                 <div className="flex items-start justify-between gap-3">
-                  <h3 className="text-lg font-semibold">Prayer's Navigator</h3>
+                  <h3 className="text-lg font-semibold">Prayer&apos;s Navigator</h3>
                   <span className="text-xs rounded-full bg-gray-100 dark:bg-gray-800 px-2 py-1 ring-1 ring-gray-200 dark:ring-gray-700">
                     SwiftUI
                   </span>
@@ -320,8 +320,8 @@ export default function Home() {
                   data-reveal
                   className="opacity-100 translate-y-0 mt-4 max-w-3xl text-gray-600 dark:text-gray-300"
                 >
-                  I’m Edgars Yarmolatiy — a CS student and builder. I enjoy designing straightforward, reliable
-                  software. I came to the U.S. as a refugee from Ukraine and I’m grateful to create tools that help
+                  I&apos;m Edgars Yarmolatiy — a CS student and builder. I enjoy designing straightforward, reliable
+                  software. I came to the U.S. as a refugee from Ukraine and I&apos;m grateful to create tools that help
                   people in everyday life. I focus on clarity, performance, and good UX.
                 </p>
               </div>
@@ -345,7 +345,7 @@ export default function Home() {
             <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 backdrop-blur-2xl bg-white/30 dark:bg-white/10">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div>
-                  <h2 className="text-3xl font-semibold tracking-tight">Let’s work together</h2>
+                  <h2 className="text-3xl font-semibold tracking-tight">Let&apos;s work together</h2>
                   <p className="mt-2 text-gray-600 dark:text-gray-300">
                     Want to collaborate, hire me, or just say hello?
                   </p>
